@@ -1,0 +1,19 @@
+channel_group,week_number,cohort_users,returned,rate
+All channels,1,238641,9070,0.038
+All channels,2,218422,3339,0.0153
+All channels,4,174957,1578,0.009
+Direct,1,56320,2040,0.0362
+Direct,2,51549,735,0.0143
+Direct,4,41147,339,0.0082
+Organic Search,1,88503,2579,0.0291
+Organic Search,2,81033,963,0.0119
+Organic Search,4,64664,445,0.0069
+Other / Redacted,1,45091,2216,0.0491
+Other / Redacted,2,41251,788,0.0191
+Other / Redacted,4,33199,377,0.0114
+Paid Search,1,12215,253,0.0207
+Paid Search,2,11150,93,0.0083
+Paid Search,4,8970,51,0.0057
+Referral,1,36512,1982,0.0543
+Referral,2,33439,760,0.0227
+Referral,4,26977,366,0.0136

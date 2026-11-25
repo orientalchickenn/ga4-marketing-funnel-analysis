@@ -1,0 +1,21 @@
+device_category,step_order,step_name,sessions,pct_of_all_sessions,pct_of_previous_step,drop_off_from_previous_step
+All devices,1,Session,360129,1,,
+All devices,2,View item,77020,0.2139,0.2139,0.7861
+All devices,3,Add to cart,15173,0.0421,0.197,0.803
+All devices,4,Begin checkout,5959,0.0165,0.3927,0.6073
+All devices,5,Purchase,2848,0.0079,0.4779,0.5221
+desktop,1,Session,208942,1,,
+desktop,2,View item,44819,0.2145,0.2145,0.7855
+desktop,3,Add to cart,8780,0.042,0.1959,0.8041
+desktop,4,Begin checkout,3425,0.0164,0.3901,0.6099
+desktop,5,Purchase,1606,0.0077,0.4689,0.5311
+mobile,1,Session,143185,1,,
+mobile,2,View item,30501,0.213,0.213,0.787
+mobile,3,Add to cart,6072,0.0424,0.1991,0.8009
+mobile,4,Begin checkout,2404,0.0168,0.3959,0.6041
+mobile,5,Purchase,1180,0.0082,0.4908,0.5092
+tablet,1,Session,8002,1,,
+tablet,2,View item,1700,0.2124,0.2124,0.7876
+tablet,3,Add to cart,321,0.0401,0.1888,0.8112
+tablet,4,Begin checkout,130,0.0162,0.405,0.595
+tablet,5,Purchase,62,0.0077,0.4769,0.5231

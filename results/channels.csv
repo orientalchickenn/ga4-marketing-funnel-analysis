@@ -1,0 +1,6 @@
+channel_group,users,sessions,purchasers,transactions,revenue_usd,user_conversion_rate,avg_order_value_usd,revenue_per_user_usd,share_of_revenue,share_of_users
+Organic Search,98490,123570,1103,1309,85246,0.0112,65.12,0.87,0.2766,0.3646
+Other / Redacted,52064,74155,884,1094,75418,0.017,68.94,1.45,0.2447,0.1927
+Direct,63463,83449,803,955,68911,0.0127,72.16,1.09,0.2236,0.2349
+Referral,42754,63073,794,963,68295,0.0186,70.92,1.6,0.2216,0.1583
+Paid Search,13383,15882,119,130,10330,0.0089,79.46,0.77,0.0335,0.0495
