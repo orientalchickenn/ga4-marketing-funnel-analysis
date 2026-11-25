@@ -1,12 +1,12 @@
 # E-commerce Marketing Funnel & Channel Performance Analysis
 
-**Tools:** SQL (Google BigQuery) · Google Sheets · d3.js dashboard · GA4 event data  
+**Tools:** SQL (Google BigQuery) · Google Sheets · Google Data Studio (Looker Studio) · GA4 event data  
 **Author:** Kenneth Ezekiel Sunardibuana
 
-> 📊 **Dashboard:** https://claude.ai/artifact/5yk9VUqYsFuxjpbkRfMdqK
+> 📊 **Dashboard (Google Data Studio):** https://datastudio.google.com/reporting/2feb9522-e885-49f6-be97-defb0f6de29a
 
-The dashboard follows a consulting-report structure: headline KPIs, an executive summary,
-six numbered exhibits each titled with its finding, and a prioritised recommendations table.
+The dashboard follows a consulting-report structure: headline KPIs, six numbered exhibits
+each titled with its finding, and prioritised recommendations, across three pages.
 The exact numbers behind every exhibit are in [`results/`](results/) as CSV files.
 
 ## Business problem
@@ -96,14 +96,14 @@ Full numbers: [`results/summary.md`](results/summary.md).
 2. Create a project, then a dataset named `ga4_portfolio`.
 3. Run each file in `sql/` in order. For files 01–05: **Save results → BigQuery table** in
    `ga4_portfolio`, using the table name in the file's header comment.
-4. In Looker Studio, add each saved table as a BigQuery data source and build the pages below.
+4. Summarise each table into a small chart-ready result (one per exhibit) and export it with
+   **Save results → Google Sheets**. Sandbox tables expire after 60 days; the Sheets copies do not.
+5. In Google Data Studio, add each sheet as a data source and build the pages below.
 
-## Dashboard layout (Looker Studio)
+## Dashboard layout (Google Data Studio)
 
-| Page | Source table | Charts |
-|---|---|---|
-| **1. Overview & Funnel** | `funnel_by_device` | KPI cards (sessions, purchases, conversion), funnel bar chart (`step_name` × `sessions`), device filter, drop-off table |
-| **2. Channels** | `channel_performance` | Bar: users vs revenue share per channel; table: conversion rate, AOV, revenue per user |
-| **3. Customers (RFM)** | `rfm_segments` | Bar: customers vs revenue share per segment; table of segment averages |
-| **4. Retention** | `cohort_retention` | Pivot table heatmap: `cohort_week` × `week_number`, value `retention_rate`; channel filter |
-| **5. Devices & Markets** | `device_country` | Geo map by revenue; table of top countries by conversion |
+| Page | Exhibits |
+|---|---|
+| **1. Overview & funnel** | Headline KPIs (sessions, conversion, revenue, buyers, repeat-buyer rate) · Exhibit 1: purchase funnel · Exhibit 2: conversion by device · Recommendations |
+| **2. Channels & retention** | Exhibit 3: share of users vs share of revenue by channel · Exhibit 4: week-1 return rate by channel |
+| **3. Customers & markets** | Exhibit 5: RFM segments, share of customers vs share of revenue · Exhibit 6: top 10 countries |
