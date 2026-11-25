@@ -1,6 +1,6 @@
 # E-commerce Marketing Funnel & Channel Performance Analysis
 
-**Tools:** SQL (Google BigQuery) · Google Sheets · d3.js dashboard · GA4 event data
+**Tools:** SQL (Google BigQuery) · Google Sheets · d3.js dashboard · GA4 event data  
 **Author:** Kenneth Ezekiel Sunardibuana
 
 > 📊 **Dashboard:** https://claude.ai/artifact/5yk9VUqYsFuxjpbkRfMdqK
